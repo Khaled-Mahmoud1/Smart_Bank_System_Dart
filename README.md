@@ -21,39 +21,35 @@ This project focuses on applying OOP concepts in a clean and structured way.
 
 ##  OOP Concepts Applied
 
-- ✅ Abstract Classes
-- ✅ Inheritance
-- ✅ Method Overriding
-- ✅ Encapsulation
-- ✅ Polymorphism
-- ✅ Interface (Printable)
-- ✅ Composition
-- ✅ Enum
-- ✅ Static Members
+-  Abstract Classes
+-  Inheritance
+-  Method Overriding
+-  Encapsulation
+-  Polymorphism
+-  Interface (Printable)
+-  Composition
+-  Enum
+-  Static Members
 
 ---
 
 ##  Project Structure
 
 lib/
-│
-├── main.dart
-│
-├── models/
-│ ├── account.dart
-│ ├── savings_account.dart
-│ ├── current_account.dart
-│ └── transaction.dart
-│
-├── enums/
-│ └── transaction_type.dart
-│
-└── interfaces/
-└── printable.dart
+main.dart
+models/
+ account.dart
+ savings_account.dart
+ current_account.dart
+ transaction.dart
+enums/
+ transaction_type.dart
+interfaces/
+printable.dart
 
 ---
 
-## 🏦 Account Types
+##  Account Types
 
 ### 1- Savings Account
 - Cannot withdraw more than balance
