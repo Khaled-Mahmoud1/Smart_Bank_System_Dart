@@ -34,19 +34,20 @@ This project focuses on applying OOP concepts in a clean and structured way.
 ---
 
 ##  Project Structure
+```
+lib/
+ main.dart
+models/
+  account.dart
+  savings_account.dart
+  current_account.dart
+  transaction.dart
+enums/
+  transaction_type.dart
+interfaces/
+  printable.dart
 
-- lib/
- - main.dart
-- models/
- - account.dart
- - savings_account.dart
- - current_account.dart
- - transaction.dart
-- enums/
- - transaction_type.dart
-- interfaces/
- - printable.dart
-
+```
 ---
 
 ##  Account Types
